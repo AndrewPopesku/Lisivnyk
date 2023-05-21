@@ -1,0 +1,213 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+:root {
+    --main-font: 'PT Serif Caption';
+    --roboto-font: 'Roboto';
+    --bg-color: #1A1A1A;
+    --secondary: #C4A570;
+    --grey: #2B2B2B;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 16px;
+    color: #fff !important;
+    background-color: var(--bg-color);
+}
+
+.navbar-brand img {
+    height: 55px;
+}
+
+.navbar li {
+    font-size: calc(16px + 0.15vw);
+}
+
+.bg {
+    background-color: transparent !important;
+}
+
+.offer {
+    margin-top: 30vh;
+}
+
+.nav-item a {
+    margin: 16px;
+    padding: 0px;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg.png") bottom center;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    max-width: 19ch;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: calc(15px + 0.35vw);
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    max-width: 32ch;
+}
+
+.triggers {
+    width: 100%;
+    height: 100vh;
+}
+
+.triggers ul {
+    font-family: var(--roboto-font);
+    margin: 6vh 0;
+}
+
+.triggers ul li {
+    line-height: 1.7;
+    font-size: calc(11px + 0.45vw);
+    max-width: 45ch;
+    margin: 1vh 0;
+}
+
+.trigger .line {
+    width: 46px;
+    height: calc(4px + 0.15vw);
+    background-color: var(--secondary);
+}
+
+.triggers h1 {
+    color: var(--secondary);
+}
+
+.trigger {
+    margin: 5vh 1vh;
+}
+
+.gallery {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .row {
+    margin: 8vh 0;
+}
+
+.gallery h1 {
+    color: var(--secondary)
+}
+
+.footer-info {
+    padding: 7vh;
+    background-color: var(--grey);
+    margin: 8vh 0;
+}
+
+
+
+.contact {
+    margin: 7vh 0;
+}
+
+.contact h4 {
+    font-family: var(--roboto-font);
+}
+
+a {
+    color: #fff !important;
+}
+
+a:hover {
+    color: rgb(222, 222, 222) !important;
+}
+
+.gallery a {
+    margin: 12px 0 !important;
+}
+
+.gallery-button {
+    font-family: Roboto;
+    font-size: calc(1.0rem + 0.5vw);
+    color: #C4A570 !important;
+
+}
+
+.gallery-button:hover {
+    color: #ffdb9c !important;
+}
+
+.footer-nav a {
+    font-family: var(--roboto-font);
+    color: #B8B8B8 !important;
+}
+
+.footer-nav a:hover {
+    color: #efefef !important;
+}
+
+@media (max-width: 991px) {
+
+    /* Add your CSS rules here for smaller screens */
+    .triggers {
+        margin: 130px 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav {
+        margin-top: 1rem;
+        text-align: center;
+        width: 168px;
+    }
+}
+
+.contacts {
+    margin-top: 50px;
+}
+
+.contacts h1 {
+    font-size: calc(1.0rem + 0.5vw);
+    color: var(--secondary);
+}
+
+.contacts p {
+    max-width: 400px;
+    font-family: var(--roboto-font);
+}
