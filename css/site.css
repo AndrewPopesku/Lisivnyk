@@ -211,3 +211,16 @@ a:hover {
     max-width: 400px;
     font-family: var(--roboto-font);
 }
+
+.lb-image {
+    border-color: var(--grey) !important;
+}
+
+.lb-nav .lb-prev,
+.lb-nav .lb-next {
+    border-color: var(--grey) !important;
+}
+
+.lb-close {
+    border-color: var(--grey) !important;
+}
